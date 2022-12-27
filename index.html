@@ -1,29 +1,64 @@
-<html>
-    <head>
-      <title>Mérnöki portfólióm</title>
-      <meta name="contect" content="yay">
-        <style> .főcím {color: darkorchid;}
-                .cv {background-color: darkorchid; height: 40px; width: 40px;color:white; cursor: pointer; border-radius:10px;}
-        </style>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    </head>
-
-    <body>
-        <body style="background-color:antiquewhite;"></body>
-        <h1 class="főcím"> Gergely Kuroli, mechanical engineer</h1>
-        <h2>My portfolio ⚙️</h2>
-        <h3>Introduction ⚙️</h3>
-        <p>Hello there! My name is Gergely Kuroli, im 22 years old, and I am currently looking for a job at your companay!</p>
-        <img src="gerg.jpg" alt="Kuroli Gergely" width="500" height="600"/> <br>
-        
-        <nav>
-            <a href="./about.html">My work</a>
-            <a href="https://www.linkedin.com/in/gergely-kuroli-70a847211/"> <i class="fa fa-linkedin-square" style="font-size:48px"></i></a>
-            <a href="./cv.html">CV</a>
-            <a href="./contact.html">Contact</a>
-          </nav>
-    </body>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/e67393b682.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="contaiter">
+            <nav>
+                <a href="" id="navbar_logo">Gergely Kuroli</a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">My work</a></li>
+                    <li><a href="#">CV</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Mechanical Engineer (BSc)</p>
+                <h1>Hi, I'm Gergely Kuroli <br> from Hungary 🇭🇺</h1>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
+
+<!-- -------------portfolio---------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/bolygom.png">
+                <div class="layer">
+                    <h3>Planetary gear design</h3>
+                    <p>I designed a planetary gear <br> at my Uni, with an output torque of 3000 Nm.</p>
+                    <a href="bolygomu.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/jarvany.png">
+                <div class="layer">
+                    <h3>Pandemic simulation in LabVIEW</h3>
+                    <p>I used an SIR model for this Uni project.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/sofc.png">
+                <div class="layer">
+                    <h3>Designing fuel cell stack piping, and support</h3>
+                    <p>We designed teh supply of air and fuel for fuel cell stacks <br> as a team of 4 at Uni.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
